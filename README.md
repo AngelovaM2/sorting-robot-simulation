@@ -1,6 +1,6 @@
 # Sorting robot simulation (Webots)
 
-![The real robot next to the simulation](images/robot-overview.webp)
+![The real robot next to the simulation](images/robot-sim.webp)
 
 In the **DBL Embedded Systems** course at Eindhoven University of Technology (2022), our team of six built a Raspberry Pi robot that sorts black and white discs coming down a conveyor belt. Each colour has its own arm that pushes the disc off the belt, and green discs act as "unknown objects" that are let through. The user can choose to sort all discs, or only a chosen number of each colour.
 
