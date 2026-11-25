@@ -29,10 +29,6 @@ My part was the **simulation**: a virtual copy of the robot in Webots, so we cou
 
 To run it, open `worlds/Simulation.wbt` in [Webots](https://cyberbotics.com/) and set the mode at the top of the controller (`"SortAll"` or `"SortSome"`, plus the number of discs wanted).
 
-## What I would do differently
-
-Webots did not let me use console input in our setup, and I kept everything in one main loop, so the two modes ended up as nested `if` statements. Today I would structure the controller as a proper state machine (waiting, pushing, returning, counting) and compare strings with `.equals()` instead of `==`. A nice difference with the real robot is that the simulated arms use position sensors as feedback, while the physical robot relied on fixed time delays.
-
 ---
 
 Made by **Mariana Angelova** as part of a team of six · [Portfolio](https://AngelovaM2.github.io)
